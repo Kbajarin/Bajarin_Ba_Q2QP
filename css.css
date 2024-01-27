@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding-top: 70px; 
+}
+
+.navbar {
+    background-color: #3498db;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+@font-face {
+    font-family: 'P'; /* Provide a name for your font family */
+    src: url('media/Proxima\ Nova\ Font.otf') format('opentype');
+
+}
+.nav-text {
+    color: #fff; 
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.banner {
+    position: relative;
+    height: 70vh; 
+    overflow: hidden;
+
+}
+
+.video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -5;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.background-section {
+    background-color: #f8f8f8;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.background-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: #000; 
+    font-size: 24px;
+    text-decoration: underline;
+    font-family: 'P';
+}
+
+.section-text {
+    color: #000;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.logo {
+    width: 66px;
+    height: 66px;}
+
+.footer {
+    background-color: #3498db; /* Same color as the navbar */
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.copyright {
+    color: #fff; 
+    margin-right: 15px; 
+}
+
+.social-logos {
+    display: flex;
+}
+
+.facebook-logo {
+    background: url('media/sprite3.png') no-repeat -439px -146px;
+    width: 66px;
+    height: 66px;
+}
+
+.twitter-logo {
+    background: url('media/sprite3.png') no-repeat -66px -72px;
+    width: 67px;
+    height: 66px;
+}
+
+.youtube-logo {
+    background: url('media/sprite3.png') no-repeat -439px -221px;
+    width: 66px;
+    height: 66px;
+}
+.background-section {
+    background-color: #f8f8f8; 
+    padding: 30px 0;
+    text-align: center;
+}
+
+.background-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-text {
+    color: #000; 
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.achievements-section {
+    background-color: #81cdff; 
+    padding: 60px 0; 
+    text-align: left;
+}
+
+.achievements-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-title-white {
+    color: #fff; /* White color for the title */
+    font-size: 24px;
+    font-family: 'P';
+}
+.achievement-item {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Add some space between items */
+}
+
+.achievement-photo {
+    max-width: 100px; /* Adjust the max-width of the photo as needed */
+    margin-right: 20px; /* Add some space between photo and text */
+}
+
+.achievement-text {
+    color: #fff; /* White color for the text */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.right-aligned {
+    margin-left: auto; /* Pushes the right-aligned photo to the right */
+    margin-right: 20px; /* Add some space between right-aligned photo and text */
+}
+
+/* Banner for "What We Do" Page Styles */
+.what-we-do-banner {
+    background-color: #ffffff; /* Blue color */
+    padding: 50px 0;
+    text-align: center;
+    z-index: 5;
+}
+/* Initiatives Section Styles */
+.initiatives-section {
+    background-color: #808080; /* Gray background color */
+    padding: 60px 0; /* Adjust the padding as needed */
+    text-align: left;
+}
+
+.initiatives-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.initiatives-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0; /* Adjust the margin as needed */
+}
+
+.initiatives-list li {
+    color: #fff; /* White color for the text */
+    font-size: 16px;
+    line-height: 1.5; /* 1.5 times bigger line spacing */
+}
+/* Involvements Section Styles */
+.involvements-section {
+    background-color: #cecece; /* Gray background color */
+    padding: 60px 0; /* Adjust the padding as needed */
+    text-align: right; /* Align the content to the right */
+}
+
+.involvements-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-title2 {
+    color: #000000; /* White color for the title */
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.involvements-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0; /* Adjust the margin as needed */
+}
+
+.involvements-list li {
+    color: #000000; /* White color for the text */
+    font-size: 16px;
+    line-height: 1.5; /* 1.5 times bigger line spacing */
+    text-align: right; /* Align the text to the left within the right-aligned container */
+}
+
+/* Banner for "What We Do" Page Styles */
+.what-we-do-banner {
+    position: relative;
+    height: 15vh; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* White color for the title */
+    font-size: 36px;
+    text-decoration: underline;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.who-we-are-section {
+    text-align: center;
+}
+
+.blue-background {
+    background-color: #81cdff; /* Blue background color */
+    padding: 20px 0; /* Adjust the padding as needed */
+}
+
+.black-borders {
+    border-top: 5px solid #000; /* Black border on top */
+    border-bottom: 5px solid #000; /* Black border on bottom */
+    padding: 20px 0; /* Adjust the padding as needed */
+}
+
+.who-we-are-text {
+    color: #fff; /* White color for the text */
+    font-size: 20px;
+}
+
+/* Vision and Mission Section Styles */
+.vision-mission-section {
+    background-color: #fff; /* White background color */
+    padding: 40px 0; /* Adjust the padding as needed */
+    text-align: center;
+}
+
+.white-space {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.vision{
+        width: 48%; /* Adjust the width as needed */
+        text-align: left;
+
+}
+.mission {
+    width: 48%; /* Adjust the width as needed */
+    text-align: right;
+}
+
+.section-title {
+    color: #000; /* Black color for the title */
+    font-size: 24px;
+}
+
+.section-text {
+    color: #000; /* Black color for the text */
+    font-size: 16px;
+    line-height: 1.5; /* 1.5 times bigger line spacing */
+}
+.how{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+}
+.nav-text:hover{
+    color:#81cdff;
+    transition: 0.4s;
+}
